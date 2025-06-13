@@ -1,11 +1,12 @@
 cabal-version: >= 1.8
-name: universe
+name: fib
 version: 0.1.0.0
 license: AllRightsReserved
 build-type: Simple
 
-library
-  exposed-modules: Universe.World
-  hs-source-dirs: src
-  build-depends: base
+executable fib
+  main-is: Main.hs
+  hs-source-dirs: app
+  build-depends: base, stream
   default-language: Haskell2010
+

@@ -1,7 +1,4 @@
-# monorepo
+# stream
 
-A Haskell + Nix monorepo template
+A simplistic parallel stream library written using the Par monad in Haskell.
 
-## References
-
-Code was taken and update from the [Haskell Monorepo Tutorial](https://github.com/fghibellini/nix-haskell-monorepo)
