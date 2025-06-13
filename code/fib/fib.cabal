@@ -7,6 +7,6 @@ build-type: Simple
 executable fib
   main-is: Main.hs
   hs-source-dirs: app
-  build-depends: base, stream
+  build-depends: base, stream, monad-par
   default-language: Haskell2010
 
