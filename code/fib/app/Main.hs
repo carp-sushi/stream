@@ -22,4 +22,5 @@ pipeline n xs =
 -- Calculate and print the sum of some even Fibonacci numbers.
 main :: IO ()
 main = do
+    putStr "sum of fibs for evens in range [1..38] = "
     print (pipeline 10 [1 .. 38])
